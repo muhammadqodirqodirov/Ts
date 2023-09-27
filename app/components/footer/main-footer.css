@@ -1,0 +1,11 @@
+.res-footer{
+    display: none;
+}
+@media screen and (max-width:622px) {
+    .res-footer{
+        display: inline-block;
+    }
+    .res-big-footer{
+        display: none;
+    }
+}

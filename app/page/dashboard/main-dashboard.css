@@ -1,0 +1,95 @@
+.tabeltex{
+    display: none;
+}
+
+
+@media screen and (max-width:1015px) {
+    .dash-title{
+        font-size: 36.212px;
+        font-weight: 700;
+        line-height: 41.385px;
+    }
+    .dash-text-bottom{
+        font-size: 11.169px;
+        font-weight: 500;
+        line-height:  16.753px ;
+        letter-spacing: 0.447px;
+    }
+    .dash-title-bottom{
+        font-size: 13.402px;
+        font-weight: 800;
+        line-height: 20.104px;
+        letter-spacing: 0.447px;
+    }
+    .dash-price-bottom{
+        text-align: right;
+        font-size: 15.636px;
+        font-weight: 800;
+        line-height: 23.454px ;
+        letter-spacing: 0.223px;
+    }
+    .text-top{
+        font-size: 20.104px;
+        font-weight: 800;
+        line-height:  27.14px;
+        letter-spacing: 0.223px;
+    }
+    .desktop{
+        display: none;
+    }
+    .tabeltex{
+        display: inline-block;
+    }
+}
+
+
+@media screen and (max-width:866px) {
+    .dahsboardWrapper{
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 500px;
+    }
+    .dash-this{
+        text-align: right;
+        font-size: 11.164px;
+        font-weight: 600;
+        line-height: 16.747px ;
+        letter-spacing: 0.372px;
+    }
+   
+    .dash-title{
+        margin-top: -80px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 32.641px; 
+        text-transform: capitalize;
+    }
+    .dash-text-bottom{
+        font-size: 9.304px;
+        font-weight: 500;
+        line-height:  13.955px ;
+        letter-spacing: 0.372px;
+    }
+    .dash-title-bottom{
+        font-size: 11.164px;
+        font-weight: 800;
+        line-height:  16.747px ;
+        letter-spacing: 0.372px;
+    }
+    .dash-price-bottom{
+        text-align: right;
+        font-size: 13.025px;
+        font-weight: 800;
+        line-height: 19.538px ;
+        letter-spacing: 0.186px;
+    }
+    .text-top{
+        font-size: 16.747px;
+        font-weight: 800;
+        line-height:  22.608px ;
+        letter-spacing: 0.186px;
+        margin-right: 20px;
+    }
+}

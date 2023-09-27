@@ -1,0 +1,28 @@
+.header-top{
+    display: none;
+}
+
+@media screen and (max-width:1216px) {
+    .log-img{
+        padding-left: 50px;
+    }
+    .clent{
+        padding-left: 90px;
+    }
+}
+@media screen and (max-width:866px) {
+    .header-top{
+        display: inline-block;
+    }
+    .clent{
+        padding-left: 5px;
+    }
+    .loginPAge{
+        display: none;
+    }
+    .InputsName{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,29 @@
+.top-header{
+    display: none;
+}
+
+@media screen and (max-width:1268px) {
+    .register-img{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .little-reg{
+        left:30px;
+        top: 10%;
+    }
+}
+
+@media screen and (max-width:866px) {
+    .reg-wrapper{
+        display: none;
+    }
+    .logotip{
+        display: none;
+    }
+    .top-header{
+        display: inline-block;
+    }
+    .inputs{
+        padding-left: 5px;
+    }
+}

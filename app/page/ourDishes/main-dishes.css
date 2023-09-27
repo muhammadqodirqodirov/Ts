@@ -1,0 +1,121 @@
+.tablet{
+    display: none;
+}
+.res-dish-mobi{
+    display: none;
+}
+.mobilike{
+    display: none;
+}
+@media screen  and (max-width:1270px){
+    .res-dish-img{
+        width: 131px;
+        height: 131px;
+    }
+    .tablet{
+        display: inline-block;
+    }
+    .desktop{
+        display: none;
+    }
+    .res-item{
+        width: 160px;
+        height: 310px;
+    }
+    .res-dishesour{
+        max-width: 912px;
+    }
+    .res-like{
+        margin-left: 80%;
+    }
+    .res-types{
+        width: 55px;
+        height: 20px;
+        font-size: 8px;
+    }
+    .res-name{
+        font-size: 16.394px;
+        font-weight: 600;
+        line-height: 26.64px;
+    }
+    .res-text{
+        font-size: 12.296px;
+        font-weight: 400;
+        line-height: 16.394px; 
+    }
+    .res-price{
+        font-size: 18.443px;
+        font-weight: 700;
+        line-height: 28.69px;
+        margin-right: -20px;
+    }
+}
+
+@media screen and (max-width:931px) {
+    .res-dishesour{
+        gap:10px;
+        max-width: 840px;
+    }
+}
+
+@media screen and (max-width:866px) {
+    .res-dishesour{
+        display: none;
+    }
+    .res-dish-mobi{
+        display: inline-block;
+        display: flex;
+        gap: 5px;
+    }
+    .res-price{
+        font-size: 16.965px;
+        font-weight: 700;
+        line-height: 26.389px; 
+        margin-right: -34px;
+    }
+    .dish-title{
+        max-width: 127px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 36px;
+    }
+    .res-item{
+        width: 146px;
+        height: 255px;
+        margin-bottom: 60px;
+    }
+    .res-dish-img{
+        width: 121px;
+        margin-top: -15px;
+        height: 121px;
+    }
+    .res-types{
+        width: 47px;
+        height: 15px;
+        font-size: 8px;
+        padding: 0px 4px;
+    }
+    .res-like{
+        display: none;
+    }
+    .mobilike{
+        display: inline-block;
+        margin-left: 111px;
+    }
+    .res-name{
+        font-size: 15.08px;
+        font-weight: 600;
+        line-height: 24.504px;
+    }
+    .res-text{
+        font-size: 11.31px;
+        font-weight: 400;
+        line-height: 15.08px;
+    }
+    .tablet{
+        width: 28px;
+        height: 28px;
+        padding: 0;
+    }
+}

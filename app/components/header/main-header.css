@@ -1,0 +1,28 @@
+.btn-res{
+    display: none;
+}
+.link-menu-res{
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width:800px) {
+    .header-Links{
+        display: none;
+    }
+    .btn-res{
+        display: inline-block;
+    margin-left: 30px;
+    }
+}
+@media screen and (max-width:468px) {
+    .link-res{
+        display: none;
+    }
+    .link-menu-res{
+        display: inline-block;
+    }
+}
