@@ -64,6 +64,8 @@ export const MenuHeader=()=> {
             <React.Fragment key={anchor}>
               <Button onClick={toggleDrawer(anchor, true)}><Menu/></Button>
               <SwipeableDrawer
+               anchor={anchor}
+               open={state[anchor]}
                 onClose={toggleDrawer(anchor, false)}
                 onOpen={toggleDrawer(anchor, true)}
               >
