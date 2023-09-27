@@ -1,12 +1,11 @@
 import {create} from "zustand"
 import axios from "axios"
 import { createJSONStorage, persist } from "zustand/middleware";
-import { Register } from "@/app/types copy";
 const registerCart =(set:any)=>({
     post:[],
     loading:false,
     error:""  ,
-    postRegister: async(data:Register)=>{
+    postRegister: async(data:any)=>{
         set({ loading: true });
         try {
           const res = await axios.post(
